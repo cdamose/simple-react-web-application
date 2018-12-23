@@ -7,17 +7,4 @@ before_install:
    - docker build -t amose/docker-react-sample -f Dockerfile.dev .
    
 script:
-   - docker run amose/docker-react-sample npm run test -- --coverage   
-deploy:
- on :
-    branch: master
-  provider: elasticbeanstalk
-  access_key_id:
-    secure: "$AWS_ACCESS_KEY_ID"
-  secret_access_key:
-    secure: "$AWS_SECRECT_ACCESS_KEY"
-  region: "ap-south-1"
-  app: "docker"
-  env: "MyWebApp-env"
-  bucket_name: "elasticbeanstalk-ap-south-1-379434283010"
-  bucket_path: "MyWebApp"
+   - docker run amose/docker-react-sample npm run test -- --coverage
