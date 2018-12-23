@@ -11,9 +11,9 @@ script:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: $AWS_ACCESS_KEY_ID
+    secure: "$AWS_ACCESS_KEY_ID"
   secret_access_key:
-    secure: $AWS_SECRECT_ACCESS_KEY
+    secure: "$AWS_SECRECT_ACCESS_KEY"
   region: "ap-south-1"
   app: "docker"
   env: "MyWebApp-env"
