@@ -7,4 +7,8 @@ before_install:
    - docker build -t amose/docker-react-sample -f Dockerfile.dev .
    
 script:
-   - docker run amose/docker-react-sample npm run test -- --coverage
+   - docker run amose/docker-react-sample npm run test -- --coverage   
+deploy:
+ on :
+    branch: master
+  
