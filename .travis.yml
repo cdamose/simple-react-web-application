@@ -16,8 +16,4 @@ deploy:
     secure: $AWS_ACCESS_KEY_ID
   secret_access_key:
     secure: $AWS_SECRECT_ACCESS_KEY
-  region: "ap-south-1"
-  app: "docker"
-  env: "MyWebApp-env"
-  bucket_name: "elasticbeanstalk-ap-south-1-379434283010"
-  bucket_path: "MyWebApp"
+  
