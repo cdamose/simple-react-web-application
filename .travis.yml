@@ -15,7 +15,7 @@ deploy:
   secret_access_key:
     secure: "$AWS_SECRECT_ACCESS_KEY"
   region: "ap-south-1"
-  app: "MyWebApp"
+  app: "my-web-app"
   env: "MyWebApp-env"
   bucket_name: "elasticbeanstalk-ap-south-1-379434283010"
   bucket_path: "MyWebApp"
