@@ -9,5 +9,4 @@ before_install:
 script:
    - docker run amose/docker-react-sample npm run test -- --coverage   
 deploy:
-  provider: elasticbeanstalk   
-  
+  provider: elasticbeanstalk
