@@ -18,4 +18,6 @@ deploy:
   app: "docker"
   env: "MyWebApp-env"
   bucket_name: "elasticbeanstalk-ap-south-1-379434283010"
-  bucket_path: "MyWebApp" 
+  bucket_path: "MyWebApp"
+  on :
+    branch: master 
