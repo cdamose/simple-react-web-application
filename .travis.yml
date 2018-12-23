@@ -21,5 +21,3 @@ deploy:
   env: "MyWebApp-env"
   bucket_name: "elasticbeanstalk-ap-south-1-379434283010"
   bucket_path: "MyWebApp"
-
-  
